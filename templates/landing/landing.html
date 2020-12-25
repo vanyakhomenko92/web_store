@@ -21,21 +21,17 @@
     <div class="general-container">
         <div class="container top-container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
+                <div class="col-lg-6 col-lg-offset-2">
                     <h3 class="title">Наш магазин незабаром відкриється!<br>
                     Оставляйте Ваш имейл в форме ниже</h3>
                     <div>
-                        <form action="" method="post" class="form-inline text-center">{% csrf_token %}
-                         <div class="form-group">
-                             <label>Ваш имейл: </label>
-                             <input name="{{ form.email.name }}" class="form-control">
-                         </div>
-                         <div class="form-group">
-                             <label>Ваше имя: </label>
-                             <input name="{{ form.name.name }}" class="form-control">
-                         </div>
-                         <button type="submit" class="btn btn-primary btn-orange">Отправить</button>
+                        <form action="" method="post">{% csrf_token %}
+                            {{form.as_p}}
+                            <div>
+                                <button type="submit" class="btn btn-primary">Надіслати</button>
+                            </div>
                         </form>
+
 
                     </div>
                 </div>
