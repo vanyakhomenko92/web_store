@@ -23,14 +23,20 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/products" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/static_dev/img" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Vanya Khomenko\Documents\GitHub\web_store\web_store\products" />
-      <recent name="C:\Users\Vanya Khomenko\Documents\GitHub\web_store\web_store\orders" />
+      <recent name="C:\Users\Vanya Khomenko\Documents\GitHub\web_store\web_store\static\static_dev\img" />
+      <recent name="C:\Users\Vanya Khomenko\Documents\GitHub\web_store\web_store\static\static_prod\css" />
+      <recent name="C:\Users\Vanya Khomenko\Documents\GitHub\web_store\web_store\static\static_prod" />
+      <recent name="C:\Users\Vanya Khomenko\Documents\GitHub\web_store\web_store\templates" />
+      <recent name="C:\Users\Vanya Khomenko\Documents\GitHub\web_store\web_store\templates\landing" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vanya Khomenko\Documents\GitHub\web_store\web_store\static\static_prod\img" />
+      <recent name="C:\Users\Vanya Khomenko\Documents\GitHub\web_store\web_store\static\static_dev\img" />
+      <recent name="C:\Users\Vanya Khomenko\Documents\GitHub\web_store\web_store\static\static_dev\css" />
       <recent name="C:\Users\Vanya Khomenko\Documents\GitHub\web_store\web_store\landing" />
       <recent name="C:\Users\Vanya Khomenko\Documents\GitHub\web_store\web_store\web_store\templates\landing" />
     </key>
@@ -47,6 +53,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="309" y="42" key="#Inspections" timestamp="1609163265713">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1609163265713" />
     <state x="539" y="122" key="FileChooserDialogImpl" timestamp="1608888506928">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
