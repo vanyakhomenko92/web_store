@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h3 class="text-center">Товари в корзині</h3>
+                <h5 class="text-center">Загальна вартість{{ request.session.basket.total_amount}} грн</h5>
+                    {{request.session.basket.products}}
+                <ul>
+
+                    {% for product_in_basket in products_in_basket %}
+                    <li>
+                        {{product_in_basket.product.name}}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+{% endblock %}
