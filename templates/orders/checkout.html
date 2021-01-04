@@ -10,7 +10,27 @@
                 <h5 class="text-center">Загальна вартість{{ request.session.basket.total_amount}} грн</h5>
                     {{request.session.basket.products}}
 
-                    <form>
+                    <form class="form-horizontal" method="post">{% csrf_token %}
+                       <div class="form-group">
+                                <div class="col-lg-4">
+                                    <label>Имя</label>
+                                    <span class="form-error">{{ form.name.errors }}</span>
+                                    <input type="text" name="{{ form.name.html_name }}" class="form-control"
+                                        value="{{ request.POST.name }}">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-lg-4">
+                                     <label>Телефон</label>
+                                     <span class="form-error">{{ form.phone.errors }}</span>
+                                    <input type="text" name="{{ form.phone.html_name }}" class="form-control"
+                                        value="{{ request.POST.phone }}">
+                                </div>
+                            </div>
+
+
+
                         <table class="table text-center">
                             <thead>
                             <tr>
